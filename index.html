@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics</title>
+    <style>
+      h1 {
+        background-color: blueviolet;
+        color: brown;
+        padding: 3px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Basics</h1>
+    <h3>Syntex</h3>
+    body{ <br />
+    background- colour: red; padding : 10 px; }
+
+    <h3>Ways of adding styles</h3>
+    <ul>
+      <li>Inline Approach</li>
+      <li>Internal Approach</li>
+      <li>External Approach</li>
+    </ul>
+    <h5>Inline CSS</h5>
+    <p>it is use "style" attribute</p>
+    <p
+      style="
+        background-color: aquamarine;
+        padding: 10px;
+        color: azure;
+        text-align: center;
+      "
+    >
+      Hey it's me Sam
+    </p>
+    <p style="background-color: brown">I am a Coder</p>
+    <p style="background-color: yellow">I studied in University of Kalyani</p>
+    <p>
+      This approach is only used to apply styles for a specific tag only, if we
+      wants to apply the styles we have to repeat the same styles all the
+      required HTML Tags. This approach increases the code duplication and code
+      redundancy. This increase code maintainability of the application
+    </p>
+
+    <h5>Internal CSS</h5>
+    <p>It is use < style > tag in the head section of HTML</p>
+    <h1>Hello World</h1>
+    <h1>Hey world</h1>
+    <h1>Hola World</h1>
+    <p>
+      But in this approach we can apply the styles only for the specific HTML
+      Document, these styles will not be applied to any other HTML Document
+    </p>
+
+    <h5>External CSS</h5>
+    <p>
+      This is the best approach to apply styles to any webpage. In this approach
+      we will create a separate ‘.css’ file and apply all the styles to it. We
+      can connect this ‘.css’ file to any HTML document using a HTML < link >
+      Tag.
+      <!-- <link rel="stylesheet" href="style.css"> -->
+    </p>
+  </body>
+</html>
