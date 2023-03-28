@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      #blue {
+        background-color: blueviolet;
+        padding: 5px;
+      }
+      #red {
+        background-color: red;
+        padding: 2%;
+      }
+      .color {
+        background-color: chocolate;
+        pading: 2%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>There are 5 different types of CSS Selectors</p>
+    <ul>
+      <li>Element Selector/ Tag Selector</li>
+      <li>ID Selector</li>
+      <li>Class Selectors</li>
+      <li>Attribute Selectors</li>
+      <li>Pseudo Selectors</li>
+    </ul>
+    <h2>Element Selectors</h2>
+    <p>
+      In this selector we will select a specific element or tag and apply styles
+      to it. To apply the background-color red for a specific tag or element is
+      as follows
+    </p>
+
+    <!-- h2 { background-color: blueviolet; color: brown; padding: 3px; box-shadow: 0
+    0 10px black; text-align: center; } -->
+    <h2>ID selector</h2>
+    <p>
+      In order to apply some styles for a specific element, we have to give a
+      unique id and we select this id and apply styles to it.
+    </p>
+    <!-- #blue {
+        background-color: blueviolet;
+        padding: 5px;
+      } -->
+
+    <h3 id="blue">Lorem, ipsum.</h3>
+    <h3 id="red">Lorem, ipsum.</h3>
+
+    <h2>Class Selectors</h2>
+    <p>
+      In this class selector we can add the same class name for a group of
+      elements and apply styles to it.
+    </p>
+    <!-- .color{
+        background-color: chocolate;
+        pading: 2%;
+      } -->
+      <p>if there is a class & ID both for styling ID will be prioritized </p>
+
+    <h3 class="color">Lorem, ipsum.</h3>
+    <h3 class="color">Lorem, ipsum.</h3>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
