@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors 2</title>
+    <style>
+      input[type="text"] {
+        background-color: aqua;
+      }
+      input[type="text"]:focus{
+        background-color: yellow;
+        color: grey;
+        font-size: 20px;
+        transition: all 0.5s;
+      }
+      input[type="password"] {
+        background-color: crimson;
+      }
+      input[type="submit"] {
+        background-color: chocolate;
+      }
+      input[type="submit"]:hover {
+        background-color: purple;
+        color: black;
+        padding: 14px 25px;;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Attribute Selectors</h2>
+    <p>
+      By using CSS we can even select a specific attribute of a HTML Element and
+      apply styles to it. These styles are used when we apply some styles only
+      for a text box or password box. As both are using an < input /> tag, we can
+      differentiate them using an attribute only.
+    </p>
+
+    <form>
+      <label>User Name</label>
+      <input type="text" />
+      <br />
+      <label>Password</label>
+      <input type="password" />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Pseudo Selectors</h2>
+    <p>
+      An action which a user is performing on the webpage is called as an event.
+      This is the selector to apply the CSS styles for some special events on
+      the browser.
+    </p>
+    
+
+  </body>
+</html>

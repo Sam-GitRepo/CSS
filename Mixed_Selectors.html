@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed Selectors</title>
+    <style>
+      ol {
+        background-color: grey;
+      }
+      ol li {
+        background-color: aqua;
+        color: whitesmoke;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 5px;
+      }
+      ol #orange {
+        background-color: brown;
+      }
+      ol li:last-child {
+        background-color: burlywood;
+      }
+      ol li:nth-child(2) {
+        background-color: purple;
+      }
+      ol li:nth-child(odd) {
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Mixed Selectors</h2>
+    <ol>
+      <li id="orange">C</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
