@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Background</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px;
+      }
+      #bg-color {
+        background-color: coral;
+      }
+      #bg-image {
+        box-shadow: 0 0 10 px black;
+        padding: 15px;
+        width: 500px;
+        background-image: url("Images/0_sSBwDeYHWMDS-7tV.gif");
+      }
+      #bg-repeat {
+        width: 500px;
+        height: 300px;
+        box-shadow: 0 0 10px black;
+        /* background-color: lightsalmon;
+            background-image: url("Images/images.png");
+            background-repeat: no-repeat;
+            background-position:top right;
+            background-attachment: scroll; */
+        background: lightsalmon url("Images/images.png") no-repeat top right
+          scroll;
+      }
+      #bg-position {
+        width: 500px;
+        height: 300px;
+        box-shadow: 0 0 10px black;
+        background: lightsalmon url("Images/images.png") repeat bottom right
+          fixed;
+      }
+      #bg-attachment {
+        height: 350px;
+        box-shadow: 0 0 10px black;
+        background: red url("Images/0_sSBwDeYHWMDS-7tV.gif") repeat-y top left
+          scroll center;
+      }
+      #bg-size {
+        width: 500px;
+        height: 300px;
+        box-shadow: 0 0 10px black;
+        background-image: url("Images/0_sSBwDeYHWMDS-7tV.gif");
+        background-size: cover;
+      }
+      #Gradient{
+        width: 500px;
+        height: 300px;
+        box-shadow: 0 0 10px black;
+        background: linear-gradient(90deg,black, red, black);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Background</h1>
+    <p>Background-color:HEx, RBG, text etc</p>
+    <p>Background-image:url("");</p>
+    <p>background-repeat:no-repeat,repeat-x,repeat-y</p>
+    <p>Background-position:top, left, right, bottom, center</p>
+    <p>background-attachment:scroll, fixed</p>
+
+    <h2>Background-color</h2>
+    <div id="bg-color">
+      <h3>Hello world</h3>
+    </div>
+
+    <h2>Background-image</h2>
+    <div id="bg-image">
+      <h3>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ex.
+      </h3>
+    </div>
+
+    <h2>background-attachment</h2>
+    <div id="bg-attachment"></div>
+
+    <h2>background-repeat</h2>
+    <div id="bg-repeat"></div>
+
+    <h2>background-position</h2>
+    <div id="bg-position"></div>
+
+    <h2>background-size</h2>
+    <div id="bg-size"></div>
+
+    <h2>Gradient</h2>
+    <div id="Gradient"></div>
+  </body>
+</html>
