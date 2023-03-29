@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Borders</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        width: 500px;
+      }
+      #border-all {
+        border: 10px solid limegreen;
+      }
+      #border-single {
+        border-left: 15px dashed greenyellow;
+      }
+      #border-rounded {
+        border: 10px double limegreen;
+        border-radius: 50px;
+      }
+      #border-rounded-two {
+        border: 10px double limegreen;
+        border-radius: 60px 0 60px 0;
+      }
+      #circle {
+        height: 200px;
+        width: 200px;
+        box-shadow: 0 0 10px black;
+        border-radius: 50%;
+        background-color: lightblue;
+        border: 15px dashed darkgreen;
+      }
+      #border-frame {
+        height: 200px;
+        width: 200px;
+        box-shadow: 0 0 10px black;
+        border-top: 25px solid greenyellow;
+        border-bottom: 25px solid lightcoral;
+        border-left: 25px solid darkmagenta;
+        border-right: 25px solid lightslategray;
+      }
+      #border-ring{
+        height: 200px;
+        width: 200px;
+        box-shadow: 0 0 10px black;
+        border-radius: 50%;
+        border-top: 25px solid greenyellow;
+        border-bottom: 25px solid lightcoral;
+        border-left: 25px solid darkmagenta;
+        border-right: 25px solid lightslategray;
+        background: linear-gradient(45deg, lightcoral, yellow)
+      }
+      #border-custom{
+        height: 315px;
+        width: 560px;
+        box-shadow: 0 0 10px black;
+        border-top: 25px solid greenyellow;
+        border-bottom: 25px solid lightcoral;
+        border-left: 25px solid darkmagenta;
+        border-right: 25px solid lightslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Borders</h1>
+    <p>
+      CSS border are used to apply various border styles for any HTML Elements.
+      To apply a simple border for any HTML Element
+    </p>
+    <p>border-width: px, cm, mm</p>
+    <p>border-style: solid, dotted, dashed, double</p>
+    <p>border-color: text, hex, rbg</p>
+
+    <p>border: width style color</p>
+
+    <h3>Border all Sides</h3>
+    <div id="border-all">
+      <h5>Border all Sides</h5>
+    </div>
+
+    <h3>Border single side</h3>
+    <div id="border-single">
+      <h5>Lorem ipsum dolor sit amet.</h5>
+    </div>
+
+    <h3>Border rounded all side</h3>
+    <div id="border-rounded">
+      <h5>Lorem, ipsum dolor.</h5>
+      <p>
+        border-radius: 50px 0 0 25px<br />
+        TL TR BR BL
+      </p>
+    </div>
+
+    <h2>Border rounded two side</h2>
+    <div id="border-rounded-two">
+      <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+    </div>
+
+    <h2>Circle</h2>
+    <section id="circle"></section>
+
+    <h2>Border frame</h2>
+    <section id="border-frame"></section>
+
+    <h2>Border ring</h2>
+    <section id="border-ring"></section>
+
+    <h2>Custom border</h2>
+    <section id="border-custom">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7OGSeZP0sc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+
+  </body>
+</html>
