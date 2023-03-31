@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0 0 5px black;
+        border: 3px solid white;
+      }
+      .box1 {
+        /* static  means no change in position */
+        background-color: skyblue;
+        position: relative;
+        left: 250px;
+        top: 150px;
+        z-index: 3;
+      }
+      .container {
+        width: 500px;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: relative;
+        left: 300px;
+        z-index: 2;
+      }
+      .box2 {
+        background-color: olive;
+        position: absolute;
+        left: 200px;
+        top: 100px;
+      }
+      .box3 {
+        background-color: lightgray;
+        position: absolute;
+        right: 100px;
+        bottom: 100px;
+      }
+      .box4 {
+        background-color: darkgreen;
+        position: fixed;
+        top: 100px;
+        right: 100;
+        z-index: 1;
+      }
+      .box5 {
+        background-color: lightsalmon;
+        position: sticky;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Position</h1>
+    <p>
+      The CSS Positions are used to place the HTML Elements in the specified
+      positions on the webpage. For these styles we use a CSS property called
+      position.
+    </p>
+    <p>There are 5 position</p>
+    <p>static: default position of any html element</p>
+    <p>relative: this positioned relative to its own</p>
+    <p>absolute: this is positioned relative to its parent</p>
+    <p>fixed: this is fix an element in the given position</p>
+    <p>sticky: this is to stick any element in the given position</p>
+
+    <p>Z-index</p>
+
+    <div class="box box1"></div>
+    <div class="container">
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+    </div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sequi
+      accusantium deleniti in, blanditiis adipisci quos voluptas obcaecati
+      alias, corporis sit distinctio at culpa dolores? Laudantium eligendi quas
+      rem perferendis fugiat ipsa soluta nesciunt animi. Inventore reprehenderit
+      illo cum incidunt quam quis temporibus aspernatur necessitatibus corporis
+      dolores soluta rem quo, sunt quae a, culpa nisi pariatur quas voluptate ut
+      consequatur tempore laudantium? Id aspernatur, velit voluptates laborum
+      perferendis optio doloribus molestias laboriosam cupiditate? Eligendi
+      saepe, accusantium optio ad iure vitae natus temporibus impedit aliquam
+      assumenda voluptas corrupti veritatis obcaecati, asperiores quos
+      consectetur sit aut autem ab veniam ullam, mollitia facere.
+    </h3>
+
+
+  </body>
+</html>
