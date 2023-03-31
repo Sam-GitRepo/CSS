@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Property</title>
+    <style>
+      body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      div {
+        margin: 10px;
+      }
+      h2 {
+        background-color: yellowgreen;
+        padding: 5px;
+        margin: 5px;
+        display: inline;
+      }
+      span {
+        background-color: grey;
+        display: block;
+      }
+      a {
+        background-color: cyan;
+        display: block;
+        padding: 5px;
+        margin: 5px;
+      }
+      h3 {
+        background-color: darkorchid;
+        display: none;
+        /* this will hide remove the element */
+      }
+      .parents{
+        background-color: grey;
+        padding: 5px;
+      }
+      .child{
+        background-color:lime ;
+        color:whitesmoke ;
+        padding: 5px;
+        width: 180px;
+        display: inline-block;
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>CSS Display Property</h1>
+    <p>This Property converts inline to block & block to inline elements</p>
+    <p>
+      Inline element
+      <br />
+      anchor, span, input, img
+    </p>
+    <p>
+      Block Element
+      <br />
+      h1, div, p, section
+    </p>
+
+    <h3>Types of CSS Display</h3>
+    <p>display: inline</p>
+    <p>display: block</p>
+    <p>display: none</p>
+    <p>display: inline-block</p>
+
+    <h4>Inline</h4>
+    <div>
+      <h2>Good morning</h2>
+      <h2>Good Evening</h2>
+      <h2>Good Night</h2>
+    </div>
+
+    <h4>block</h4>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+        <span>
+          1. repellendus accusantium voluptates explicabo velit exercitationem
+        </span>
+        <span>
+          2. delectus non reprehenderit, dolorem in? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Dolore, aut.
+        </span>
+      </p>
+    </div>
+
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">profile</a>
+      <a href="#">contact</a>
+    </div>
+
+    <h4>None</h4>
+    <div>
+      <h3>Hey This is hidden</h3>
+    </div>
+
+    <h4>Inline block</h4>
+    <div class="parents">
+      <div class="child">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ea
+          possimus recusandae nam quisquam magni, nemo doloribus hic aliquid
+          voluptas perspiciatis accusantium quia beatae maxime deserunt officia
+          aut natus nihil minus cum. Ipsam similique consequatur voluptatum ab
+          placeat quo assumenda!
+        </p>
+      </div>
+      <div class="child">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ea
+          possimus recusandae nam quisquam magni, nemo doloribus hic aliquid
+          voluptas perspiciatis accusantium quia beatae maxime deserunt officia
+          aut natus nihil minus cum. Ipsam similique consequatur voluptatum ab
+          placeat quo assumenda!
+        </p>
+      </div>
+      <div class="child">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ea
+          possimus recusandae nam quisquam magni, nemo doloribus hic aliquid
+          voluptas perspiciatis accusantium quia beatae maxime deserunt officia
+          aut natus nihil minus cum. Ipsam similique consequatur voluptatum ab
+          placeat quo assumenda!
+        </p>
+      </div>
+      <div class="child">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ea
+          possimus recusandae nam quisquam magni, nemo doloribus hic aliquid
+          voluptas perspiciatis accusantium quia beatae maxime deserunt officia
+          aut natus nihil minus cum. Ipsam similique consequatur voluptatum ab
+          placeat quo assumenda!
+        </p>
+      </div>
+    </div>
+
+
+  </body>
+</html>
