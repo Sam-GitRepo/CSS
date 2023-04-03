@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            ' footer footer footer footer';
+        }
+        .box{
+            background-color: yellow;
+            border: 3px solid black;
+            padding:12px 23px ;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area:footer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="box">
+            Home About Contact Profile
+        </div>
+        <div id="section" class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptas?
+        </div>
+        <div id="aside" class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perferendis expedita rem esse consequatur optio.
+        </div>
+        <!-- <div class="box">This is item-1</div>
+        <div class="box">This is item-2</div>
+        <div class="box">This is item-3</div>
+        <div class="box">This is item-4</div>
+        <div class="box">This is item-5</div>
+        <div class="box">This is item-6</div>
+        <div class="box">This is item-7</div>
+        <div class="box">This is item-8</div> -->
+        <footer class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quidem impedit architecto ullam quibusdam fugiat velit fugit. Voluptatum quis rerum labore explicabo ex dicta libero temporibus repudiandae nostrum excepturi, id perspiciatis accusamus ab asperiores earum velit consequatur aliquam, beatae aperiam eaque alias cum tempore quaerat! Necessitatibus, mollitia illo. Aperiam, repudiandae?</footer>
+    </div>
+    
+</body>
+</html>
