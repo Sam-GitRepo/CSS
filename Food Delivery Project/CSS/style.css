@@ -12,7 +12,7 @@
 #navbar {
   display: flex;
   align-items: center;
-  position: relative;
+  position: sticky;
   top: 0px;
 }
 #navbar::before {
@@ -181,6 +181,8 @@ footer{
     background: black;
     color: whitesmoke;
     padding: 9px 20px;
+    text-align: center;
+
 }
 #contact-box{
     display: flex;
@@ -201,4 +203,7 @@ footer{
 }
 #contact-box label{
     font-size: 1.3rem;
+}
+html{
+  scroll-behavior: smooth;
 }
