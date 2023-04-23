@@ -669,7 +669,7 @@ There are two display values:
 
 ### Parent Element (Container)
 
-![display-flex](../Assets/display-flex.svg)
+![display-flex](https://github.com/A-jha/CSS-LAB/raw/master/Assets/display-flex.svg)
 
 ## Flex Container Properties
 
@@ -697,7 +697,7 @@ The flex-direction property defines in which direction the container wants to st
 - row
 - row-reverse
 
-![ex](../Assets/cont-1.svg)
+![ex](https://github.com/A-jha/CSS-LAB/raw/master/Assets/cont-1.svg)
 
 ## flex-wrap
 
@@ -711,7 +711,7 @@ The flex-wrap CSS property sets whether flex items are forced onto one line or c
 - wrap-reverse
 - nowrap
 
-![flex-wrap](../Assets/flex-wrap.png)
+![flex-wrap](https://github.com/A-jha/CSS-LAB/raw/master/Assets/flex-wrap.png)
 
 ## flex-flow
 
@@ -734,7 +734,7 @@ The justify-content property is used to align the flex items.
 - space-around
 - space-between
 
-![justify-content](../Assets/justify-content.svg)
+![justify-content](https://github.com/A-jha/CSS-LAB/raw/master/Assets/justify-content.svg)
 
 ## align-item
 
@@ -746,13 +746,13 @@ The align-items property is used to align the flex items.
 - stretch
 - baseline
 
-![align-items](../Assets/align-items.svg)
+![align-items](https://github.com/A-jha/CSS-LAB/raw/master/Assets/align-items.svg)
 
 ## Align Content
 
 The align-content property is used to align the flex lines.
 
-![align-content](../Assets/align-content.svg)
+![align-content](https://github.com/A-jha/CSS-LAB/raw/master/Assets/align-content.svg)
 
 # CSS Flex Items
 
@@ -783,7 +783,7 @@ The order property specifies the order of the flex items.
 
 - order is a comparision between each child and according to that positioned.
 
-![order](../Assets/order.svg)
+![order](https://github.com/A-jha/CSS-LAB/raw/master/Assets/order.svg)
 
 ## Flex Grow
 
